@@ -1,0 +1,116 @@
+---
+title: "Quantitative Social Science Methods II"
+subtitle: "Probability, Inference, and Regression"
+details: |
+  Gov 2002 • Spring 2023<br>Harvard University
+sidebar: false
+toc: false
+page-layout: full
+format:
+  html:
+    template-partials:
+      - html/home/title-block.html
+course-logo: /files/img/gov2002-icon-512.png
+---
+
+
+::: {.grid .course-details}
+
+::: {.g-col-12 .g-col-sm-12 .g-col-md-8}
+
+
+
+### Teaching Team
+
+#### Head Instructor
+
+::: {.grid}
+
+::: {.g-col-3}
+
+
+![](files/img/blackwell-2015@2x.jpg)
+
+:::
+
+::: {.g-col-9}
+
+
+
+- {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
+- {{< fa university >}} &nbsp; {{< var instructor.office >}}
+- {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a>
+- {{< fa brands twitter >}} &nbsp; [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})
+- {{< fa calendar-check >}} &nbsp; [Schedule an appointment]({{< var instructor.appointment_url >}})
+
+::: 
+
+:::
+
+#### Teaching Fellows
+
+::: {.grid}
+
+::: {.g-col-3}
+
+
+![](files/img/ruofan_ma_2022.jpg)
+ 
+:::
+
+::: {.g-col-9}
+
+
+
+- {{< fa user >}} &nbsp; Ruofan Ma
+- {{< fa envelope >}} &nbsp; <a href="mailto:ruofan_ma@g.harvard.edu">ruofan_ma@g.harvard.edu</a>
+- {{< fa brands twitter >}} &nbsp; [ruofan_ma](https://twitter.com/ruofan_ma)
+
+
+::: 
+
+:::
+
+
+::: {.grid}
+
+::: {.g-col-3}
+
+
+![](files/img/dom_valentino.jpg)
+ 
+:::
+
+::: {.g-col-9}
+
+
+
+- {{< fa user >}} &nbsp; Dominic Valentino
+- {{< fa envelope >}} &nbsp; <a href="mailto:dvalentino@g.harvard.edu">dvalentino@g.harvard.edu</a>
+- {{< fa brands twitter >}} &nbsp; [dom_val](https://twitter.com/dom_val)
+
+
+::: 
+
+:::
+
+
+:::
+
+
+::: {.g-col-12 .g-col-md-4 .contact-policy}
+
+### Course details
+
+- {{< fa calendar >}} &nbsp; {{< var course.days >}}
+- {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
+- {{< fa clock >}} &nbsp; {{< var course.time >}}
+- {{< fa location-dot >}} &nbsp; {{< var course.location >}}
+- {{< fa brands slack >}} &nbsp; [Slack]({{< var course.slack >}})
+
+### Contacting us
+
+{{< var instructor.contact_policy >}}
+:::
+
+:::
