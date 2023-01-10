@@ -119,8 +119,8 @@ The schedule for the problem sets will be:
 | Problem Set 2  | Thu, Feb 2nd 12:00pm ET  | Wed, Feb 8th 11:59pm ET   |
 | Problem Set 3  | Thu, Feb 9th 12:00pm ET  | Wed, Feb 15th  11:59pm ET |
 | Problem Set 4  | Thu, Feb 16th 12:00pm ET | Wed, Feb 20th  11:59pm ET |
-| Problem Set 5  | Thu, Mar 9th 12:00pm ET  | Wed, Mar 20th  11:59pm ET |
-| Problem Set 6  | Thu, Mar 22nd 12:00pm ET | Wed, Mar 29th  11:59pm ET |
+| Problem Set 5  | Thu, Mar 9th 12:00pm ET  | Wed, Mar 22nd  11:59pm ET |
+| Problem Set 6  | Thu, Mar 23nd 12:00pm ET | Wed, Mar 29th  11:59pm ET |
 | Problem Set 7  | Thu, Mar 30th 12:00pm ET | Wed, Apr 5th  11:59pm ET  |
 | Problem Set 8  | Thu, Apr 6th 12:00pm ET  | Wed, Apr 12th  11:59pm ET |
 | Problem Set 9  | Thu, Apr 13th 12:00pm ET | Wed, Apr 19th  11:59pm ET |
