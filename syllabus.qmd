@@ -160,13 +160,16 @@ If you have a general question, you can also post it on Ed. This is almost alway
 
 ## Books
 
-Unfortunately, there are no perfect references that cover everything we do in Gov 2002. I will mostly try to follow material from a couple of different books. The first of which is currently freely available on the internet. The other two Hansen books are good references but may be more dense that the Blitzstein and Hwang book. 
+Unfortunately, there are no perfect references that cover everything we do in Gov 2002. The Blitzstein and Hwang book is a great introduction to probability and we will try to use my course notes (writing still in progress!) for the material beyond probability. 
 
 - Blitzstein, Joe  and Jessica Hwang. [*Introduction to Probability, Second Edition*](https://projects.iq.harvard.edu/stat110/home). Freely available to read online or for purchase on [Amazon](https://amzn.to/2Ubh7D8) if desired. 
+- Blackwell, Matthew. [*A User's Guide to Statistical Inference and Regression*](https://mattblackwell.github.io/gov2002-book/)
+
+
+There are several other books for purchase that may be useful to you. The first two Hansen books most closely follow my own notes and are good references, but students have found them to be dense. 
+
 - Hansen, Bruce. [*Introduction to Econometrics*](https://www.amazon.com/Probability-Statistics-Economists-Bruce-Hansen/dp/0691235945/). Covers probability and inference. 
 - Hansen, Bruce. [*Econometrics*](https://www.amazon.com/Econometrics-Bruce-Hansen/dp/0691235899/). Covers regression and beyond. 
-
-There are several other books for purchase that may be useful to you. 
 
 - Freedman, David. *Statistical Models*. Cambridge University Press. 
 - Wasserman, Larry. [*All of Statistics: A Concise Course in Statistical Inference*](https://link.springer.com/book/10.1007/978-0-387-21736-9). Springer. Available to download via the Springer website (may need to log in through Harvard).
