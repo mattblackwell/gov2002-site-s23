@@ -14,4 +14,4 @@ Here you will find a links to assignments and resources for those assignments.
 
 ## Problem sets
 
-TK
+- [Problem Set 1](/assignments/01_problem_set.qmd)
