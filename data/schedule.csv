@@ -1,10 +1,9 @@
 ﻿week,date,date_end,title,deadline, reading,content,tutorial,assignment
 1,2023-01-24,,Introduction to the course/Probability,,"BH Ch 1","/materials/week_01",,
 1,2023-01-26,,Probability/Conditional Probability,,"BH Ch 2","/materials/week_01",,
-2,2023-01-31,,Conditional probability and random variables,,"BH Ch 3",,,
+2,2023-01-31,,Conditional probability and random variables,,"BH Ch 3","/materials/week_01",,
 2,2023-02-01,,Problem Set 1,11:59 PM,,,,"/assignments/01_problem_set"
-2,2023-02-02,,Random variables,,"BH Ch 3",,,
-3,2023-02-07,,Expectation,,"BH Ch 4",,,
+2,2023-02-02,,Random variables,,"BH Ch 3","/materials/week_01",,
 3,2023-02-08,,Problem Set 2,11:59 PM,,,,
 3,2023-02-09,,Expectation,,"BH Ch 4",,,
 4,2023-02-14,,Continuous random variables,,"BH Ch 5.1-5.4",,,
