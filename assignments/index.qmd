@@ -15,3 +15,4 @@ Here you will find a links to assignments and resources for those assignments.
 ## Problem sets
 
 - [Problem Set 1](/assignments/01_problem_set.qmd)
+- [Problem Set 2](/assignments/02_problem_set.qmd)
