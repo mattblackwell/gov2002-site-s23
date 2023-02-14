@@ -41,6 +41,8 @@ website:
               file: materials/week_02.qmd
             - text: "Week 3: Expectation"
               file: materials/week_03.qmd
+            - text: "Week 4: Continuous Random Variables"
+              file: materials/week_04.qmd
               
     - title: "Assignments"
       style: "docked"
