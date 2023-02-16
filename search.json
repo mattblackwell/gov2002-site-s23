@@ -161,6 +161,55 @@
     "text": "Question 5 (20 points)\nOne common assumption that nearly all Presidential election forecasts make is assuming that the number of voters who turn out to vote in a particular geography (and vote choice amongst those who turn out) follows a binomial distribution. Consider the 2016 United States Presidential primary election in Erie County, Pennsylvania where there is a voting-eligible population of 200,000. Let \\(D\\) be the total number of voters who turn out for the Democratic primary and \\(R\\) be the turnout for the Republican primary (assume no voter can vote in both).\nOf the Democratic primary voters, let \\(D_\\text{Bernie}\\) and \\(D_\\text{Hillary}\\) be the number of voters who vote for Bernie Sanders and Hillary Clinton respectively, and of the Republican primary voters, let \\(R_\\text{Trump}\\) and \\(R_\\text{Cruz}\\) be the number of voters who vote Donald Trump and Ted Cruz respectively.\nLet’s assume that \\(D\\), \\(R\\), \\(D_\\text{Bernie}\\), \\(D_\\text{Hillary}\\), \\(R_\\text{Trump}\\), and \\(R_\\text{Cruz}\\) all follow the binomial distributions (with different success probabilities). Label each of the following statements as true or false and provide some reasoning, formally or informally, for your answer.\n\nThe number of Trump voters is unconditionally independent from the number of Bernie voters in Erie County.\nThe number of Trump voters is conditionally independent from the number of Cruz voters given the total Republican turnout.\nThe expectation of the total turnout across both parties is equal to the sum of the expectations of the total number of Dem voters and total number of GOP voters.\nThe variance of the total turnout is equal to the sum of the variances of the Dem turnout and Republican turnout.\nThe Binomial distribution assumptions would be correct if members of each household decided whether and how they were going to vote together."
   },
   {
+    "objectID": "assignments/04_problem_set.html",
+    "href": "assignments/04_problem_set.html",
+    "title": "Gov 2002: Problem Set 4",
+    "section": "",
+    "text": "Submission instructions | PDF  | Rmd  |"
+  },
+  {
+    "objectID": "assignments/04_problem_set.html#problem-set-instructions",
+    "href": "assignments/04_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 4",
+    "section": "Problem Set Instructions",
+    "text": "Problem Set Instructions\nThis problem set is due on February 22, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+  },
+  {
+    "objectID": "assignments/04_problem_set.html#question-1-24-points",
+    "href": "assignments/04_problem_set.html#question-1-24-points",
+    "title": "Gov 2002: Problem Set 4",
+    "section": "Question 1 (24 points)",
+    "text": "Question 1 (24 points)\nSuppose you’re interested in studying the distribution of political ideology in the US, a random variable that we’ll call \\(X\\). Individuals are placed on a continuous one-dimensional ideology scale that varies from -1 to 1, where lower score are more liberal. Instead of having to do sampling to estimate the distribution, Keith Poole comes to you in a dream and tells you the unnormalized distribution of this random variable, which is as follows:\n\\[\n\\begin{aligned}\nf(x) = \\begin{cases}\nc(\\frac{1}{2}x + 1) & -1 \\le x \\le 1, \\\\\n0 & \\text{else}\n\\end{cases}\n\\end{aligned}\n\\]\nwhere \\(c\\) is a normalizing constant.\n\nFind the value of \\(c\\) that would make \\(f(x)\\) a valid probability distribution function, \\(f_X(x)\\).\nCalculate \\(E[X]\\).\nFind the cumulative density function of X.\nCalculate \\(P(X > 0)\\)."
+  },
+  {
+    "objectID": "assignments/04_problem_set.html#question-2-20-points",
+    "href": "assignments/04_problem_set.html#question-2-20-points",
+    "title": "Gov 2002: Problem Set 4",
+    "section": "Question 2 (20 points)",
+    "text": "Question 2 (20 points)\nLet’s say you wanted to verify your answers to the above questions using simulation techniques. Since \\(X\\) does not follow a standard probability distribution e.g. a normal, exponential, or uniform distribution, there is no function built in to R to generate random samples from it like rnorm(), rexp(), or runif(). Fortunately, we can generate samples from any probability distribution for which there is a closed-form CDF using what is called “inversion sampling” or “inverse transform sampling.”\nTo do this, we take advantage of two things: 1) the fact that all computing languages can generate pseudo-random numbers from the uniform distribution over the interval [0, 1] and 2) the fact that the CDF of \\(X\\) (and other random variables generally) is a function that maps the support of \\(X\\) to probabilities between zero and one.\n\nFirst, find the inverse of CDF \\(F_X\\) which you found in Question 1. This function, denoted \\(F_X^{-1}\\) or \\(Q\\), is called the quantile function. The quantile function of a random variable specifies the value of a random variable such that the probability of the variable being less than or equal to that value equals the given quantile.\nGenerate 10,000 draws from a standard uniform distribution. These values can be thought of as probabilities. Plug these values into the function \\(Q\\) that you just derived. By doing so, you generate a sample of size 10,000 from the random variable \\(X\\) as specified in Question 1.\nVerify your answers to Questions 1b and 1d by estimating \\(E[X]\\) and \\(P(X > 0)\\). Be sure to set your seed to 02138."
+  },
+  {
+    "objectID": "assignments/04_problem_set.html#question-3-20-points",
+    "href": "assignments/04_problem_set.html#question-3-20-points",
+    "title": "Gov 2002: Problem Set 4",
+    "section": "Question 3 (20 points)",
+    "text": "Question 3 (20 points)\nSuppose \\(X \\sim \\text{Pois}(\\lambda)\\), where \\(\\lambda\\) is fixed but unknown.\nAn estimator is a function of the data and the bias of an estimator, \\(f(X)\\), is defined as \\(E[f(X)] - \\theta\\), where \\(\\theta\\) is the estimand (an unknown quantity we would like to estimate from the observable data).\nFor instance our estimand could be \\(\\lambda\\), and we know by the properties of a Poisson random variable that the bias of the estimator, \\(f(X) = X\\), is \\(E[X] - \\lambda = \\lambda - \\lambda = 0\\). We call an estimator with \\(0\\) bias an unbiased estimator.\nFor this question, suppose that our estimand is \\(\\lambda^3\\) rather than \\(\\lambda\\).\n\nShow that \\(X^3\\) is not an unbiased estimator of \\(\\lambda^3\\) and specify the bias as a function of \\(\\lambda\\).\n\nHints:\n\nYou may use the following result: if \\(X \\sim \\text{Pois}(\\lambda)\\), then \\(E[X\\cdot g(X)] = \\lambda E[g(X + 1)]\\) for any function \\(g(\\cdot)\\).\nYou may use the result for \\(E[X^2]\\) derived in lecture and section, (i.e., no need to derive it again).\n\n\nSuppose \\(\\lambda = 5\\). Use \\(150,000\\) simulations to validate your result to part (a). That is, calculate the bias of you estimator from both the simulations and the analytical results. Print your results in the format below:\n\n\nset.seed(02138)\n\n# Simulation result \n\n# Analytical result"
+  },
+  {
+    "objectID": "assignments/04_problem_set.html#question-4-fishers-method-in-forecasting-30-points",
+    "href": "assignments/04_problem_set.html#question-4-fishers-method-in-forecasting-30-points",
+    "title": "Gov 2002: Problem Set 4",
+    "section": "Question 4: Fisher’s method in forecasting (30 points)",
+    "text": "Question 4: Fisher’s method in forecasting (30 points)\nIn this problem, we’re going to explore a real-world example of Fisher’s “lady tasting tea” experiment from lecture: election forecasters – who have, for better or worse, become a big part of politics in the United States and elsewhere. Be sure to set your seed: set.seed(02138).\n\nSuppose that Bob has correctly predicted six of the last eight election outcomes. What is the probability that someone randomly flipping a coin each of the same elections would have experienced the same success as Bob? Use R to compute your answer analytically (i.e. not by simulation).\n\nForecasting has become so popular that riffraff are flooding the market. These “uniform amateurs” predict the vote share for each state in the U.S. presidential election by drawing a uniform random variable between 0 and 1, independently across states. You are deciding whether or not to hire a forecaster, Nate, to to forecast each of the 50 state election winners in the 2024 presidential general election based on the performance of his 2020 election forecast, but you are worried that Nate might be one of these amateurs. When you ask him to justify his 2020 forecasts, he says “my highest predicted [Democratic] vote share was 0.8 which is very unlikely if I were a uniform amateur.” Let’s evaluate his claim.\n\nSuppose Nate is a uniform amateur and let \\(X\\) be the maximum of the 51 uniform vote share draws (include D.C.). Derive the CDF and PDF of \\(X\\). Use these to calculate the probability of Nate’s highest Democratic vote share being 0.8 or less if he were a uniform amateur.\nTo be on the lookout for more uniform amateurs, it’s helpful to know what highest vote share we should expect. To that end, calculate \\(E[X]\\)."
+  },
+  {
+    "objectID": "assignments/04_problem_set.html#question-5-6-points",
+    "href": "assignments/04_problem_set.html#question-5-6-points",
+    "title": "Gov 2002: Problem Set 4",
+    "section": "Question 5 (6 points)",
+    "text": "Question 5 (6 points)\nLet \\(Z \\sim \\mathcal{N}(0, 1)\\). Express the random variable \\(Y \\sim \\mathcal{N}(1, 4)\\) as a simple function in terms of \\(Z\\). Make sure to check that your \\(Y\\) has the correct mean and variance."
+  },
+  {
     "objectID": "assignments/index.html",
     "href": "assignments/index.html",
     "title": "Assignments overview",
@@ -179,7 +228,7 @@
     "href": "assignments/index.html#problem-sets",
     "title": "Assignments overview",
     "section": "Problem sets",
-    "text": "Problem sets\n\nProblem Set 1\nProblem Set 2\nProblem Set 3"
+    "text": "Problem sets\n\nProblem Set 1\nProblem Set 2\nProblem Set 3\nProblem Set 4"
   },
   {
     "objectID": "assignments/problem-sets.html",
