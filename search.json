@@ -256,7 +256,7 @@
     "href": "materials/index.html",
     "title": "Readings, lectures, and videos",
     "section": "",
-    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables"
+    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions"
   },
   {
     "objectID": "materials/week_01.html",
@@ -326,14 +326,14 @@
     "href": "materials/week_04.html",
     "title": "Week 3: Continuous random variables",
     "section": "",
-    "text": "BH Ch 4 (you can skim 4.3)"
+    "text": "BH Ch 5 (you can skip 5.5 and 5.6, skim 5.7)"
   },
   {
     "objectID": "materials/week_04.html#assignments",
     "href": "materials/week_04.html#assignments",
     "title": "Week 3: Continuous random variables",
     "section": "Assignments",
-    "text": "Assignments\n\nProblem Set 3 will be due February 15th, 11:59pm.\nProblem Set 3 will be released February 16th, 12:00pm and be due February 22nd, 11:59pm."
+    "text": "Assignments\n\nProblem Set 3 will be due February 15th, 11:59pm.\nProblem Set 4 will be released February 16th, 12:00pm and be due February 22nd, 11:59pm."
   },
   {
     "objectID": "materials/week_04.html#slides",
@@ -341,6 +341,27 @@
     "title": "Week 3: Continuous random variables",
     "section": "Slides",
     "text": "Slides\n\nContinuous Random Variables: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_05.html",
+    "href": "materials/week_05.html",
+    "title": "Week 5: Multivariate distributions",
+    "section": "",
+    "text": "BH Ch 7 (you can skim 7.4)"
+  },
+  {
+    "objectID": "materials/week_05.html#assignments",
+    "href": "materials/week_05.html#assignments",
+    "title": "Week 5: Multivariate distributions",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem Set 4 will be due February 22nd, 11:59pm.\nWe will release some practice exam questions on Thursday February 23rd."
+  },
+  {
+    "objectID": "materials/week_05.html#slides",
+    "href": "materials/week_05.html#slides",
+    "title": "Week 5: Multivariate distributions",
+    "section": "Slides",
+    "text": "Slides\n\nMultivariate Distributions: Slides | Handout"
   },
   {
     "objectID": "schedule.html",
