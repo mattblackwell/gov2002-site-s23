@@ -16,3 +16,4 @@ Here is a list of all the lecture slides the course:
 4. [Expectation](/files/slides/04_expectation_handout.pdf)
 5. [Continuous Random Variables](/files/slides/05_continuous_handout.pdf)
 6. [Multivariate Distributions](/files/slides/06_multivariate_handout.pdf)
+6. [Conditional Expectation](/files/slides/07_cond_exp_handout.pdf)
