@@ -49,6 +49,8 @@ website:
               file: materials/week_06.qmd
             - text: "Week 7: Sampling and Estimation"
               file: materials/week_07.qmd
+            - text: "Week 8: Asymptotics"
+              file: materials/week_08.qmd
               
     - title: "Assignments"
       style: "docked"

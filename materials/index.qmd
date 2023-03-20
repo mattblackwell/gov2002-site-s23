@@ -18,3 +18,4 @@ Here is a list of all the lecture slides the course:
 6. [Multivariate Distributions](/files/slides/06_multivariate_handout.pdf)
 7. [Conditional Expectation](/files/slides/07_cond_exp_handout.pdf)
 8. [Sampling and Estimation](/files/slides/08_sampling.pdf)
+9. [Asymptotics](/files/slides/09_asymptotics_handout.pdf)
