@@ -51,6 +51,8 @@ website:
               file: materials/week_07.qmd
             - text: "Week 8: Asymptotics"
               file: materials/week_08.qmd
+            - text: "Week 9: Hypothesis Tests"
+              file: materials/week_09.qmd
               
     - title: "Assignments"
       style: "docked"
