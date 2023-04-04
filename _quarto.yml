@@ -53,6 +53,8 @@ website:
               file: materials/week_08.qmd
             - text: "Week 9: Hypothesis Tests"
               file: materials/week_09.qmd
+            - text: "Week 10: Linear Regression"
+              file: materials/week_10.qmd
               
     - title: "Assignments"
       style: "docked"

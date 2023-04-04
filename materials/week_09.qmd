@@ -15,4 +15,4 @@ date: 2023-03-28
 
 ## Slides
 
-- Asymptotics: [Slides](/files/slides/10_hypothesis_tests.pdf) | [Handout](/files/slides/10_hypothesis_tests_handout.pdf)
+- Hypothesis testing: [Slides](/files/slides/10_hypothesis_tests.pdf) | [Handout](/files/slides/10_hypothesis_tests_handout.pdf)
