@@ -403,7 +403,7 @@
     "href": "materials/index.html",
     "title": "Readings, lectures, and videos",
     "section": "",
-    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation\nAsymptotics\nHypothesis Tests"
+    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation\nAsymptotics\nHypothesis Tests\nLinear Regression"
   },
   {
     "objectID": "materials/week_01.html",
@@ -592,7 +592,28 @@
     "href": "materials/week_09.html#slides",
     "title": "Week 9: Hypothesis testing",
     "section": "Slides",
-    "text": "Slides\n\nAsymptotics: Slides | Handout"
+    "text": "Slides\n\nHypothesis testing: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_10.html",
+    "href": "materials/week_10.html",
+    "title": "Week 10: Linear Regressoipmn",
+    "section": "",
+    "text": "UG Ch 5"
+  },
+  {
+    "objectID": "materials/week_10.html#assignments",
+    "href": "materials/week_10.html#assignments",
+    "title": "Week 10: Linear Regressoipmn",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem set 8 will go out on Thursday, 4/6 and be due on Wednesday, 4/12."
+  },
+  {
+    "objectID": "materials/week_10.html#slides",
+    "href": "materials/week_10.html#slides",
+    "title": "Week 10: Linear Regressoipmn",
+    "section": "Slides",
+    "text": "Slides\n\nLinear regression: Slides | Handout"
   },
   {
     "objectID": "schedule.html",
