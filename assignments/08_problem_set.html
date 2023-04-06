@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-02-09">
+<meta name="dcterms.date" content="2023-04-06">
 
-<title>Gov 2002 - Gov 2002: Problem Set 3</title>
+<title>Gov 2002 - Gov 2002: Problem Set 8</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Gov 2002: Problem Set 3</h1>
+      <h1 class="quarto-secondary-nav-title">Gov 2002: Problem Set 8</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -166,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/03_problem_set.html" class="sidebar-item-text sidebar-link active">Problem Set 3</a>
+  <a href="../assignments/03_problem_set.html" class="sidebar-item-text sidebar-link">Problem Set 3</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -191,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/08_problem_set.html" class="sidebar-item-text sidebar-link">Problem Set 8</a>
+  <a href="../assignments/08_problem_set.html" class="sidebar-item-text sidebar-link active">Problem Set 8</a>
   </div>
 </li>
       </ul>
@@ -206,11 +206,21 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#problem-set-instructions" id="toc-problem-set-instructions" class="nav-link active" data-scroll-target="#problem-set-instructions">Problem Set Instructions</a></li>
-  <li><a href="#question-1-15-points" id="toc-question-1-15-points" class="nav-link" data-scroll-target="#question-1-15-points">Question 1 (15 points)</a></li>
-  <li><a href="#question-2-15-points" id="toc-question-2-15-points" class="nav-link" data-scroll-target="#question-2-15-points">Question 2 (15 points)</a></li>
-  <li><a href="#question-3-30-points" id="toc-question-3-30-points" class="nav-link" data-scroll-target="#question-3-30-points">Question 3 (30 points)</a></li>
-  <li><a href="#question-4-20-points" id="toc-question-4-20-points" class="nav-link" data-scroll-target="#question-4-20-points">Question 4 (20 points)</a></li>
-  <li><a href="#question-5-20-points" id="toc-question-5-20-points" class="nav-link" data-scroll-target="#question-5-20-points">Question 5 (20 points)</a></li>
+  <li><a href="#question-1" id="toc-question-1" class="nav-link" data-scroll-target="#question-1">Question 1</a></li>
+  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2">Question 2</a></li>
+  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3">Question 3</a>
+  <ul class="collapse">
+  <li><a href="#a" id="toc-a" class="nav-link" data-scroll-target="#a">(a)</a></li>
+  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">(b)</a></li>
+  </ul></li>
+  <li><a href="#question-4-regression-analysis-of-subprime-loans" id="toc-question-4-regression-analysis-of-subprime-loans" class="nav-link" data-scroll-target="#question-4-regression-analysis-of-subprime-loans">Question 4: Regression Analysis of Subprime Loans</a>
+  <ul class="collapse">
+  <li><a href="#a-1" id="toc-a-1" class="nav-link" data-scroll-target="#a-1">(a)</a></li>
+  <li><a href="#b-1" id="toc-b-1" class="nav-link" data-scroll-target="#b-1">(b)</a></li>
+  <li><a href="#c" id="toc-c" class="nav-link" data-scroll-target="#c">(c)</a></li>
+  <li><a href="#d" id="toc-d" class="nav-link" data-scroll-target="#d">(d)</a></li>
+  <li><a href="#e" id="toc-e" class="nav-link" data-scroll-target="#e">(e)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -219,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Gov 2002: Problem Set 3</h1>
+<h1 class="title d-none d-lg-block">Gov 2002: Problem Set 8</h1>
 </div>
 
 
@@ -230,7 +240,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 9, 2023</p>
+      <p class="date">April 6, 2023</p>
     </div>
   </div>
   
@@ -240,62 +250,84 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><a href="../assignments/problem-sets.html">Submission instructions</a> | <a href="../files/assignments/pset_3.pdf">PDF <i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> | <a href="../files/assignments/pset_3.Rmd">Rmd <i class="fa-regular fa-file-code" aria-label="file-code"></i></a> |</p>
+<p><a href="../assignments/problem-sets.html">Submission instructions</a> | <a href="../files/assignments/pset_8.pdf">PDF <i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> | <a href="../files/assignments/pset_8.Rmd">Rmd <i class="fa-regular fa-file-code" aria-label="file-code"></i></a> |</p>
 <section id="problem-set-instructions" class="level2">
 <h2 class="anchored" data-anchor-id="problem-set-instructions">Problem Set Instructions</h2>
-<p>This problem set is due on <strong>February 15, 11:59 pm</strong> Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set.</p>
+<p>This problem set is due on April 12, 11:59 pm Eastern time. Please upload a PDF of your solutions to gradescope. We will accept hand-written solutions for problems 1-3 but we strongly advise you to typeset your answers in Rmarkdown. Problem 4 should be typeset. Please list the names of other students you worked with on this problem set.</p>
 </section>
-<section id="question-1-15-points" class="level2">
-<h2 class="anchored" data-anchor-id="question-1-15-points">Question 1 (15 points)</h2>
-<p>Consider an example of stratified sampling: A certain small town, whose population consists of 100 families, has 30 families with 1 child, 50 families with 2 children, and 20 families with 3 children. The birth rank of one of these children is 1 if the child is the firstborn, 2 if the child is the secondborn, and 3 if the child is the thirdborn.</p>
+<section id="question-1" class="level2">
+<h2 class="anchored" data-anchor-id="question-1">Question 1</h2>
+<p>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be random variables with finite variances, and let <span class="math inline">\(W = Y - E(Y |X)\)</span> be the CEF error. This is the population version of the sample residual: the difference between the true value of <span class="math inline">\(Y\)</span> and the predicted value of <span class="math inline">\(Y\)</span> via a conditional expectation function (CEF) involving <span class="math inline">\(X\)</span>.</p>
 <ol type="a">
-<li><p>A random family is chosen (with equal probabilities), and then a random child within that family is chosen (with equal probabilities). Find the PMF and mean of the child’s birth rank.</p></li>
-<li><p>A random child is chosen in the town (with equal probabilities). Find the PMF and mean of the child’s birth rank.</p></li>
-<li><p>Find the variance of the child’s birth rank under the set up in (a) and (b) respectively, what do you notice?</p></li>
+<li><p>Compute <span class="math inline">\(E(W)\)</span> and <span class="math inline">\(E(W|X)\)</span>.</p></li>
+<li><p>Compute <span class="math inline">\(Var(W)\)</span>, for the case that <span class="math inline">\(W|X \sim \mathcal{N}(0,X^2)\)</span> with <span class="math inline">\(X \sim \mathcal{N}(0,1)\)</span>.</p></li>
+<li><p>Now consider a third finite-variance random variable <span class="math inline">\(Z\)</span>. Suppose the following CEF is true in the population: <span class="math display">\[
+E[Y|X, Z] = \beta_0 + \beta_1X + \beta_2 Z + \beta_3 Z^2 + \beta X Z
+\]</span> Find the partial effects of <span class="math inline">\(X\)</span> and <span class="math inline">\(Z\)</span> on <span class="math inline">\(E[Y|X, Z]\)</span>.</p></li>
 </ol>
 </section>
-<section id="question-2-15-points" class="level2">
-<h2 class="anchored" data-anchor-id="question-2-15-points">Question 2 (15 points)</h2>
-<p>Let <span class="math inline">\(n\)</span> be the number of students in a certain graduate program, and c be the number of courses that the department will offer next semester. Suppose that each student chooses their course schedule by randomly choosing 4 courses to take in the department (with all sets of 4 courses equally likely), independent of other students’ choices.</p>
+<section id="question-2" class="level2">
+<h2 class="anchored" data-anchor-id="question-2">Question 2</h2>
+<p>In this problem we will explore how centering an independent (subtracting off the variable’s mean) affects the interpretation of coefficients in linear projections.</p>
 <ol type="a">
-<li><p>Assume for this part that simultaneous enrollment is allowed (i.e., a student can enroll in two or more courses that have overlapping meeting times) and there are no enrollment caps (so students can enroll in whatever courses they want). Find the expected number of pairs of students such that the two students in the pair will take exactly the same set of courses next semester. (HINT: use the fundamental bridge.)</p></li>
-<li><p>Now suppose instead that simultaneous enrollment is <em>not</em> allowed (which explains the low workshop enrollment in said graduate program). Fortunately, there are still no enrollment caps. There are 8 different time slots in which a course can be offered (the time slots are non-overlapping). Suppose that <span class="math inline">\(c = 8k\)</span> for some positive integer <span class="math inline">\(k\)</span>, and that there are exactly k courses in each of the 8 time slots next semester. As before, each student chooses their courses randomly, but now their chosen schedule will not be allowed if there are time conflicts between the courses. Find the expected number of students who will be able to take their initially chosen set of courses next semester.</p></li>
+<li><p>Suppose that <span class="math inline">\(L[Y\mid 1, X] = \beta_0 + X \beta_1\)</span>. Let <span class="math inline">\(Z = X - E[X]\)</span>. Find the coefficients of the linear projection <span class="math inline">\(L[Y \mid 1, Z] = \alpha_0 + Z\alpha_1\)</span> in terms of <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span>. Does centering <span class="math inline">\(X\)</span> around its mean affect these parameters?</p></li>
+<li><p>Now suppose that <span class="math inline">\(L[Y|X_1, X_2] = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_1 X_2\)</span>. Derive an expression for the partial effect of <span class="math inline">\(X_1\)</span>, <span class="math inline">\(\frac{\partial L[Y|X_1, X_2]}{\partial X_1}\)</span>, and the expectation of that partial effect (where the expectation is over the distribution of <span class="math inline">\(X_1\)</span> and <span class="math inline">\(X_2\)</span>).</p></li>
+<li><p>A common trick with interactions is to center one of the variables for easier interpretation. Let <span class="math inline">\(Z_2 = X_2 - \mu_2\)</span>, where <span class="math inline">\(\mu_2 = E[X_2]\)</span>. Rewrite the linear projection <span class="math inline">\(L[Y|X_1, X_2]\)</span> as a function of <span class="math inline">\(Z_2\)</span> instead of <span class="math inline">\(X_2\)</span> and relate the new coefficient on <span class="math inline">\(X_1\)</span> to the linear projection in (b). That is, write [ L[Y X_1, X_2] = _0 + _1 X_1 + _2 Z_2 + _3 X_1Z_2 ] and express the <span class="math inline">\(\alpha\)</span> coefficients in terms of <span class="math inline">\((\beta_0, \beta_1, \beta_2, \beta_3)\)</span> and <span class="math inline">\(\mu_2\)</span>. How does the coefficient obtained in part (c) relate to the average of the partial effects in (b)? (Hint: you’ll need to add and subtract certain values to obtain the new expression.)</p></li>
+<li><p>In a sentence or two, explain the substantive interpretation of <span class="math inline">\(\alpha_1\)</span> and why using <span class="math inline">\(Z_2\)</span> instead of <span class="math inline">\(X_2\)</span> might be useful. (Hint: consider a case such where <span class="math inline">\(X_1\)</span> is assignment to some treatment and <span class="math inline">\(X_2\)</span> is birth year.) Does this transformation affect the interpretation of the interaction term?</p></li>
 </ol>
 </section>
-<section id="question-3-30-points" class="level2">
-<h2 class="anchored" data-anchor-id="question-3-30-points">Question 3 (30 points)</h2>
-<p>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be Pois(<span class="math inline">\(\lambda\)</span>) r.v.s, and <span class="math inline">\(T = X + Y\)</span>.</p>
-<ol type="a">
-<li><p>Using LOTUS, find <span class="math inline">\(\mathbb{E}[2^X]\)</span> and <span class="math inline">\(\mathbb{E}[e^Y]\)</span> (Hint: Recall that the Taylor series for <span class="math inline">\(e^x\)</span> is <span class="math inline">\(e^{x}= \sum_{k=0}^{\infty} x^k/k!=1+x+\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+\frac{x^{4}}{4 !}+\frac{x^{5}}{5 !}+\ldots\)</span>)</p></li>
-<li><p>Prove that if <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> are independent, then <span class="math inline">\(T \sim \text{Pois}(2\lambda)\)</span> (Hint: derive the PMF of <span class="math inline">\(T\)</span> from the PMFs of <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> and compare this to the PMF of <span class="math inline">\(\text{Pois}(2\lambda)\)</span>.)</p></li>
-<li><p>Formally or informally, show that if <span class="math inline">\(X\)</span> = <span class="math inline">\(Y\)</span>, then <span class="math inline">\(T\)</span> cannot follow a <span class="math inline">\(\text{Pois}(2\lambda)\)</span> distribution.</p></li>
-</ol>
+<section id="question-3" class="level2">
+<h2 class="anchored" data-anchor-id="question-3">Question 3</h2>
+<p>This question highlights the importance of the assumptions we make about the population regression function.</p>
+<section id="a" class="level3">
+<h3 class="anchored" data-anchor-id="a">(a)</h3>
+<p>Suppose the following linear model is true in the population for some outcome variable <span class="math inline">\(Y\)</span>: <span class="math display">\[
+Y = \mathbf{X}^T\boldsymbol{\beta}  + u
+\]</span></p>
+<p>Show that if this model is true and <span class="math inline">\(E[u|\mathbf{X}] = 0\)</span>, then <span class="math inline">\(E[Y|\mathbf{X}] = \mathbf{X}^T \boldsymbol{\beta}\)</span>.</p>
+<p>(Note that this is the opposite of what we showed in lecture, where we saw that if we assume <span class="math inline">\(E[Y|\mathbf{X}] = \mathbf{X}^T \boldsymbol{\beta}\)</span>, then the conditional mean zero assumption holds, <span class="math inline">\(E[u|\mathbf{X}] = 0\)</span>.)</p>
 </section>
-<section id="question-4-20-points" class="level2">
-<h2 class="anchored" data-anchor-id="question-4-20-points">Question 4 (20 points)</h2>
-<p>In many problems about modeling count data, it is found that values of zero in the data are far more common than can be explained well using a Poisson model (e.g., the onset of major conflicts between great powers). The Zero-Inflated Poisson distribution is a modification of the Poisson to address this issue, making it easier to handle frequent zero values gracefully. A Zero-Inflated Poisson r.v. <span class="math inline">\(X\)</span> with parameters <span class="math inline">\(p\)</span> and <span class="math inline">\(\lambda\)</span> can be generated as follows:</p>
-<p>First, flip a coin with probability of <span class="math inline">\(p\)</span> of Heads. Given that the coin lands Heads, <span class="math inline">\(X\)</span> = 0. Given that the coin lands Tails, <span class="math inline">\(X\)</span> is distributed Pois(<span class="math inline">\(\lambda\)</span>). Note that if <span class="math inline">\(X\)</span> = 0 occurs, there are two possible explanations: the coin could have landed Heads (in which case the zero is called a structural zero), or the coin could have landed Tails but the Poisson r.v. turned out to be zero anyway. For example, if <span class="math inline">\(X\)</span> is the number of atom bomb a random country detonated in another country within a year, then <span class="math inline">\(X\)</span> = 0 for all non-nuclear powers (this is a structural zero), but a nuclear power could still have <span class="math inline">\(X\)</span> = 0 occur.</p>
-<ol type="a">
-<li>Find the PMF of a Zero-Inflated Poisson r.v. <span class="math inline">\(X\)</span>.</li>
-<li>Explain why <span class="math inline">\(X\)</span> has the same distribution as <span class="math inline">\((1-I)Y\)</span> , where <span class="math inline">\(I \sim \text{Bern}(p)\)</span>, <span class="math inline">\(Y \sim Pois(\lambda)\)</span>, and <span class="math inline">\(Z \perp \!\!\! \perp Y\)</span>.</li>
-<li>Find <span class="math inline">\(\mathbb{E}[X]\)</span> (Hint: You can either derive this using the definition of expectation, or the result from part (b))</li>
-<li>Find <span class="math inline">\(\mathbb{V}[X]\)</span> (Hint: You can either derive this using the definition of variation, or the result from part (b))</li>
-</ol>
+<section id="b" class="level3">
+<h3 class="anchored" data-anchor-id="b">(b)</h3>
+<p>With regression we don’t typically make many distributional assumptions about <span class="math inline">\(\mathbf{X}\)</span>, except for a few crucial ones. In particular, we saw that for the linear projection to be well-defined we needed <span class="math inline">\(\mathbf{Q}_{\mathbf{X}\mathbf{X}} = E[\mathbf{X}\mathbf{X}^{T}]\)</span> to be positive definite and thus invertible.</p>
+<p>Let <span class="math inline">\(\mathbf{X} = (1, X)^{T}\)</span> so we are in a bivariate regression setting. Show that if <span class="math inline">\(Var(X) = 0\)</span>, then <span class="math inline">\(\mathbf{Q}_{\mathbf{X}\mathbf{X}}\)</span> is not positive definite. (Hint: look for linear dependencies in the columns of <span class="math inline">\(\mathbf{Q}_{\mathbf{X}\mathbf{X}}\)</span>.)</p>
 </section>
-<section id="question-5-20-points" class="level2">
-<h2 class="anchored" data-anchor-id="question-5-20-points">Question 5 (20 points)</h2>
-<p>One common assumption that nearly all Presidential election forecasts make is assuming that the number of voters who turn out to vote in a particular geography (and vote choice amongst those who turn out) follows a binomial distribution. Consider the 2016 United States Presidential primary election in Erie County, Pennsylvania where there is a voting-eligible population of 200,000. Let <span class="math inline">\(D\)</span> be the total number of voters who turn out for the Democratic primary and <span class="math inline">\(R\)</span> be the turnout for the Republican primary (assume no voter can vote in both).</p>
-<p>Of the Democratic primary voters, let <span class="math inline">\(D_\text{Bernie}\)</span> and <span class="math inline">\(D_\text{Hillary}\)</span> be the number of voters who vote for Bernie Sanders and Hillary Clinton respectively, and of the Republican primary voters, let <span class="math inline">\(R_\text{Trump}\)</span> and <span class="math inline">\(R_\text{Cruz}\)</span> be the number of voters who vote Donald Trump and Ted Cruz respectively.</p>
-<p>Let’s assume that <span class="math inline">\(D\)</span>, <span class="math inline">\(R\)</span>, <span class="math inline">\(D_\text{Bernie}\)</span>, <span class="math inline">\(D_\text{Hillary}\)</span>, <span class="math inline">\(R_\text{Trump}\)</span>, and <span class="math inline">\(R_\text{Cruz}\)</span> all follow the binomial distributions (with different success probabilities). Label each of the following statements as true or false and provide some reasoning, formally or informally, for your answer.</p>
-<ol type="a">
-<li>The number of Trump voters is unconditionally independent from the number of Bernie voters in Erie County.</li>
-<li>The number of Trump voters is conditionally independent from the number of Cruz voters given the total Republican turnout.</li>
-<li>The expectation of the total turnout across both parties is equal to the sum of the expectations of the total number of Dem voters and total number of GOP voters.</li>
-<li>The variance of the total turnout is equal to the sum of the variances of the Dem turnout and Republican turnout.</li>
-<li>The Binomial distribution assumptions would be correct if members of each household decided whether and how they were going to vote together.</li>
-</ol>
+</section>
+<section id="question-4-regression-analysis-of-subprime-loans" class="level2">
+<h2 class="anchored" data-anchor-id="question-4-regression-analysis-of-subprime-loans">Question 4: Regression Analysis of Subprime Loans</h2>
+<p>This problem will guide you through thinking about the conditional expectation function and how it relates to regression and how we can connect it back to hypothesis testing.</p>
+<p>For this problem, we are going to use the <a href="http://gov2002.mattblackwell.org/data/subprime.csv">subprime data</a>. Recall that these are data collected by the U.S. government on all home lending transactions in Cape Coral and Fort Myers. They contain information on each loan applicant and give information on whether that applicant received a subprime loan (<code>high.rate</code>) as well as on the amount of the loan (<code>loan.amount</code>). They also contain basic demographic information such as race, gender, and income.</p>
+<p>Assume the data represent the “truth” (i.e., an entire population). Also assume that the data in this population are distributed i.i.d. Take a sample of size 250, without replacement, from this population. Set your seed to <code>02138</code> before doing so. You will be working with this sample throughout this problem.</p>
+<section id="a-1" class="level3">
+<h3 class="anchored" data-anchor-id="a-1">(a)</h3>
+<p>You care about the relationship between the variables <code>income</code> and <code>loan.amount</code> – seems like there should be a relationship between those two, right?</p>
+<p>As per usual, you have a friend (you really need to get some new friends) who proposes that you use the following strategy to see if there is a relationship: Create a new income <code>income.bin</code> variable that takes on four values using the <code>cut()</code> function in <code>R</code>:</p>
+<ul>
+<li>a value for if income falls into the [0, 25] percentile range (which you can find via <code>quantile()</code>),</li>
+<li>a value if it falls into the (25, 50] range,</li>
+<li>a value for the (50, 75] range, and a value for the (75, 100] range.</li>
+</ul>
+<p>Note that the lower bounds are NOT inclusive, except for the first range.</p>
+<p>Run a regression of <code>loan.amount</code> on <code>income.bin</code>, and report the coefficients, standard errors, <span class="math inline">\(R^2\)</span> and sample size in a nicely formatted table (recall section).</p>
+</section>
+<section id="b-1" class="level3">
+<h3 class="anchored" data-anchor-id="b-1">(b)</h3>
+<p>Let’s compare the approach in (a) to using a regression on the original continuous variable. What is an assumption we make in the approach in (a) that we don’t make when we run a regression? We are looking for an assumption related to the fact that you have taken a continuous variable and stratified it into four categories.</p>
+</section>
+<section id="c" class="level3">
+<h3 class="anchored" data-anchor-id="c">(c)</h3>
+<p>Based on the results of the regression on binned income in (a), do you think the linearity assumption needed for a bivariate regression on the original continuous variable holds in this case? Why or why not?</p>
+</section>
+<section id="d" class="level3">
+<h3 class="anchored" data-anchor-id="d">(d)</h3>
+<p>In spite of your friend’s opinion, you decide to run a regression of <code>loan.amount</code> on <code>income</code>. Run this regression within your sample, and report the coefficients, standard errors, <span class="math inline">\(R^2\)</span> and sample size in a nicely formatted table (recall section).</p>
+</section>
+<section id="e" class="level3">
+<h3 class="anchored" data-anchor-id="e">(e)</h3>
+<p>Interpret the estimated coefficients. Is the interpretation consistent with the results from (a)?</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
