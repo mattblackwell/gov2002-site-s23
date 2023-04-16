@@ -64,7 +64,7 @@ Public outrage about CEO pay finds its roots during the onset of the Great Reces
 
 + Plot $\texttt{ideal}$ (on the y-axis) against the residuals from step 1 (on the x-axis).
 
-+ Calculate the regression line of $\texttt{perceived}$ on the residuals from step 1 and add it to the plot.
++ Calculate the regression line of $\texttt{ideal}$ on the residuals from step 1 and add it to the plot.
 
 What is the slope of the regression line that fits the residuals? How does this relate to the regression in part (e)?
 
