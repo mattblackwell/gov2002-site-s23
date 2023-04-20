@@ -14,7 +14,7 @@ editor_options:
 
 ## Problem Set Instructions
 
-This problem set is due on April 29, 11:59 pm Eastern time. Please
+This problem set is due on April 26th, 11:59 pm Eastern time. Please
 upload a PDF of your solutions to gradescope. We will accept
 hand-written solutions for problem 1 but we strongly advise you to
 typeset your answers in Rmarkdown. Problems 2-4 should be typeset.
