@@ -1,1 +1,2 @@
-Sitemap: https://github.com/mattblackwell/gov2002-site-s23/sitemap.xml
+User-agent: *
+Disallow: /files/locker/
