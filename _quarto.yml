@@ -7,11 +7,13 @@ project:
     - "!files/"
 
 website:
-  title: "Gov 2002"
+  title: "Gov 2002 (Spring 2023)"
+  body-header: | 
+    <div class="old-course">This content is from Spring 2022. Go to [Fall 2023 site](https://mattblackwell.github.io/gov2002-f23/)</div>
   favicon: "files/img/gov2002-shield.png"
   navbar:
     pinned: true
-    background: "#3498db"
+    background: "#2c3e50"
     right:
       - syllabus.qmd
       - schedule.qmd
